@@ -1,0 +1,2 @@
+#docker build -t speedlight/web-support-platform .
+docker run --name test_web-support-platform -v /etc/localtime:/etc/localtime --link test_sl-gateway-support:sl-gateway-support -p 8081:80  --restart always -d speedlight/web-support-platform

@@ -1,0 +1,6 @@
+// export const BASEURL = 'http://localhost:22222/gateway'
+export const BASEURL = '/gateway'
+export const METHOD_POST = 'POST'
+export const METHOD_GET = 'GET'
+export const METHOD_DELETE = 'DELETE'
+export const METHOD_PUT = 'PUT'
